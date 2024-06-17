@@ -1,19 +1,15 @@
+/* global styles */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
+/* Navbar */
 nav {
     display: flex;
     align-items: center;
@@ -40,17 +36,17 @@ ul li a {
     color: black;
 }
 
-.logo img {
-    width: 105px;
-}
-
 .logo {
     display: flex;
     align-items: center;
 }
 
+.logo img {
+    width: 105px;
+}
+
 .searchBar input {
-    width: 100%; /* Adjusted for responsiveness */
+    width: 100%;
     padding: 8px;
     border: none;
     outline: none;
@@ -69,27 +65,28 @@ ul li a {
     font-size: 24px;
 }
 
+/* Main section */
 .main {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
     background-color: rgb(248, 166, 128);
-    padding: 20px; /* Added padding for better spacing */
+    padding: 20px;
 }
 
 .mainText {
     margin-top: 74px;
-    text-align: center; /* Center align text */
+    text-align: center;
 }
 
 .mainText h1 {
-    font-size: 50px; /* Adjusted font size for responsiveness */
+    font-size: 50px;
 }
 
 .mainText p {
     margin-top: 22px;
-    font-size: 16px; /* Adjusted font size for responsiveness */
+    font-size: 16px;
 }
 
 .mainText button {
@@ -97,7 +94,7 @@ ul li a {
     height: 40px;
     background-color: black;
     color: white;
-    font-size: 16px; /* Adjusted font size for responsiveness */
+    font-size: 16px;
     border: none;
     margin-top: 22px;
 }
@@ -111,48 +108,48 @@ ul li a {
 
 .head {
     text-align: center;
-    padding: 50px; /* Adjusted padding for better spacing */
+    padding: 50px;
 }
 
 .card {
-    width: 100%; /* Adjusted width for responsiveness */
+    width: 100%;
     background-color: #fff;
-    margin: 12px; /* Adjusted margin for better spacing */
+    margin: 12px;
 }
 
 .card img {
     width: 100%;
-    height: auto; /* Ensures image aspect ratio is maintained */
+    height: auto;
 }
 
 .slides {
-    width: 100%; /* Adjusted width for responsiveness */
-    max-width: 1200px; /* Added max-width for larger screens */
-    height: auto; /* Ensures height adjusts according to content */
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
     position: relative;
     overflow: hidden;
     margin: auto;
 }
 
 .slideCard img {
-    width: 100%; /* Adjusted width for responsiveness */
-    height: auto; /* Ensures image aspect ratio is maintained */
+    width: 100%;
+    height: auto;
     margin-top: 20px;
 }
 
 .blogs {
     display: flex;
-    flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+    flex-wrap: wrap;
     justify-content: center;
     gap: 22px;
 }
 
 .blogCard {
-    width: 100%; /* Adjusted width for responsiveness */
-    max-width: 500px; /* Added max-width for larger screens */
-    height: auto; /* Ensures height adjusts according to content */
+    width: 100%;
+    max-width: 500px;
+    height: auto;
     display: flex;
-    flex-direction: column; /* Adjusted layout for better mobile display */
+    flex-direction: column;
     gap: 10px;
     background-color: rgb(7, 7, 7);
     color: white;
@@ -161,12 +158,12 @@ ul li a {
 
 .blogCard img {
     width: 100%;
-    height: auto; /* Ensures image aspect ratio is maintained */
+    height: auto;
 }
 
 .blogCard p {
     margin-top: 12px;
-    font-size: 14px; /* Adjusted font size for responsiveness */
+    font-size: 14px;
 }
 
 .blogCard a {
@@ -176,40 +173,41 @@ ul li a {
     text-decoration: none;
 }
 
+/* Footer */
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px; /* Adjusted padding for better spacing */
+    padding: 40px;
     background-color: rgb(250, 140, 89);
 }
 
 .text p {
     margin-top: 12px;
-    font-size: 14px; /* Adjusted font size for responsiveness */
+    font-size: 14px;
 }
 
 .cardDetail {
     display: flex;
-    flex-direction: column; /* Adjusted layout for better mobile display */
+    flex-direction: column;
     align-items: center;
     gap: 22px;
-    padding: 20px; /* Added padding for better spacing */
+    padding: 20px;
 }
 
 .cardDetail img {
     width: 100%;
-    height: auto; /* Ensures image aspect ratio is maintained */
+    height: auto;
 }
 
 .cardDetail p {
     margin-top: 10px;
-    font-size: 16px; /* Adjusted font size for responsiveness */
+    font-size: 16px;
 }
 
 .cardDetail h3 {
     margin-top: 20px;
-    font-size: 24px; /* Adjusted font size for responsiveness */
+    font-size: 24px;
 }
 
 .cardDetail button {
@@ -217,21 +215,21 @@ ul li a {
     height: 40px;
     background-color: rgb(255, 145, 0);
     color: white;
-    font-size: 16px; /* Adjusted font size for responsiveness */
+    font-size: 16px;
     border: none;
     margin-top: 20px;
     cursor: pointer;
 }
 
 .detailText {
-    font-size: 16px; /* Adjusted font size for responsiveness */
+    font-size: 16px;
     margin-top: 20px;
-    text-align: center; /* Center align text */
+    text-align: center;
 }
 
 .detailText i {
     color: orange;
-    font-size: 20px; /* Adjusted font size for responsiveness */
+    font-size: 20px;
     margin-top: 10px;
 }
 
@@ -243,107 +241,102 @@ ul li a {
 }
 
 /* Media Queries */
-
 @media only screen and (max-width: 768px) {
-    /* Adjust styles for tablets and smaller screens */
-
     .container {
-        flex-direction: column; /* Stack elements vertically */
+        flex-direction: column;
     }
 
-    .nav {
-        height: 60px; /* Adjusted height for smaller screens */
+    nav {
+        height: 60px;
     }
 
     .mainText h1 {
-        font-size: 40px; /* Decreased font size for smaller screens */
+        font-size: 40px;
     }
 
     .mainText p {
-        font-size: 14px; /* Decreased font size for smaller screens */
+        font-size: 14px;
     }
 
     .mainText button {
-        font-size: 14px; /* Decreased font size for smaller screens */
+        font-size: 14px;
     }
 
     .head {
-        padding: 30px; /* Adjusted padding for smaller screens */
+        padding: 30px;
     }
 
     .blogCard {
-        max-width: 100%; /* Adjusted max-width for smaller screens */
+        max-width: 100%;
     }
 
     .blogCard p {
-        font-size: 12px; /* Decreased font size for smaller screens */
+        font-size: 12px;
     }
 
     .cardDetail h3 {
-        font-size: 20px; /* Decreased font size for smaller screens */
+        font-size: 20px;
     }
 
     .cardDetail p {
-        font-size: 14px; /* Decreased font size for smaller screens */
+        font-size: 14px;
     }
 
     .detailText {
-        font-size: 14px; /* Decreased font size for smaller screens */
+        font-size: 14px;
     }
 
     .detailText i {
-        font-size: 18px; /* Decreased font size for smaller screens */
+        font-size: 18px;
     }
 }
 
 @media only screen and (max-width: 480px) {
-    /* Adjust styles for phones and smaller screens */
-
-    .nav {
-        height: 50px; /* Further adjusted height for smaller screens */
+    nav {
+        height: 50px;
     }
 
     .mainText h1 {
-        font-size: 30px; /* Decreased font size for smaller screens */
+        font-size: 30px;
     }
 
     .mainText p {
-        font-size: 12px; /* Decreased font size for smaller screens */
+        font-size: 12px;
     }
 
     .mainText button {
-        font-size: 12px; /* Decreased font size for smaller screens */
+        font-size: 12px;
     }
 
     .head {
-        padding: 20px; /* Adjusted padding for smaller screens */
+        padding: 20px;
     }
 
     .blogs {
-        flex-direction: column; /* Stack blog cards vertically */
+        flex-direction: column;
     }
 
     .blogCard {
-        max-width: 100%; /* Adjusted max-width for smaller screens */
+        max-width: 100%;
     }
 
     .blogCard p {
-        font-size: 10px; /* Decreased font size for smaller screens */
+        font-size: 10px;
     }
 
     .cardDetail h3 {
-        font-size: 18px; /* Decreased font size for smaller screens */
+        font-size: 18px;
     }
 
     .cardDetail p {
-        font-size: 12px; /* Decreased font size for smaller screens */
+        font-size: 12px;
     }
 
     .detailText {
-        font-size: 12px; /* Decreased font size for smaller screens */
+        font-size: 12px;
     }
 
     .detailText i {
-        font-size: 16px; /* Decreased font size for smaller screens */
+        font-size: 16px;
     }
 }
