@@ -12,6 +12,7 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
+    pading: 30 px;
 }
 nav{
     display: flex;
@@ -19,7 +20,7 @@ nav{
     justify-content: center;
     position: fixed;
     top: 0%;
-    width: 100%;
+    width: 100vw;
     height: 80px;
     box-shadow: 1px 3px 3px 3px rgb(228, 227, 227);
     background-color: white;
@@ -37,7 +38,7 @@ ul li a{
 }
 
 .logo img{
-    width: 205px;
+    width: 105px;
 }
 .logo{
     display: flex;
