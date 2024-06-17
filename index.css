@@ -7,12 +7,12 @@ body{
     display:flex;
     font-family: 'Roboto', sans-serif;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     position: fixed;
     top: 0%;
     width: 100%;
@@ -62,7 +62,7 @@ ul li a{
 .main{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 100px;
     background-color: rgb(248, 166, 128);
     padding:15px ;
@@ -98,14 +98,14 @@ ul li a{
 .WomenCard{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     
 
 }
 .menCard{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 .card{
@@ -146,7 +146,7 @@ ul li a{
 .blogs{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     gap: 22px;
 }
 .blogCard{
@@ -177,7 +177,7 @@ ul li a{
 .footer{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     padding: 66px;
     margin-top: 66px;
     background-color: rgb(250, 140, 89);
